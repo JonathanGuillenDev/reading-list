@@ -37,19 +37,20 @@ export default {
 
 <style>
 .card {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     width: 250px;
-    height: 550px;
+    height: 485px;
     margin: 20px;
+    background-color: rgba(236, 236, 236, 0.554);
 }
 
 .card.read {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.77);
 }
 
 .card .book-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .card .book-author {

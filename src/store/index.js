@@ -7,6 +7,12 @@ export default new Vuex.Store({
   state: {
     books: [
       {
+        title: "The Dark Knight Returns",
+        author: "Frank Miller",
+        read: false,
+        isbn: "9780606407540"
+      },
+      {
         title: "Kafka by the Shore",
         author: "Haruki Murakami",
         read: false,
@@ -38,6 +44,20 @@ export default new Vuex.Store({
         bestSeller: true,
         newRelease: true,
         isbn: "9780385543781"
+      },
+      {
+        title: "The Stuff of Thought",
+        author: "Steven Pinker",
+        bestSeller: true,
+        newRelease: false,
+        isbn: "9780670063277"
+      }, 
+      {
+        title: "World War Z",
+        author: "Max Brooks",
+        bestSeller: true,
+        newRelease: false,
+        isbn: "9780307346605"
       },
       {
         title: "Normal People",
